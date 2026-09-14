@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+from pathlib import Path
+
 import argparse
 import pandas as pd
 import numpy as np
@@ -69,6 +71,13 @@ def parse_args():
     )
 
     parser.add_argument(
+        "--data",
+        type=str,
+        default="data",
+        help="Directory containing the challenge data"
+    )
+
+    parser.add_argument(
         "--output",
         type=str,
         default="predictions.csv",
@@ -97,12 +106,14 @@ def normalize_ids(series):
 # LOAD DATA
 # ============================================================
 
-def load_data():
+def load_data(data_dir="data"):
+
+    data_dir = Path(data_dir)
 
     print("Loading telemetry...")
 
     telemetry = pd.read_parquet(
-        "data/telemetry",
+        data_dir / "telemetry",
         columns=[
             "gateway_id",
             "ts_utc",
@@ -113,7 +124,7 @@ def load_data():
     print("Loading meter data...")
 
     meter = pd.read_csv(
-        "data/meter_read_success.csv"
+        data_dir / "meter_read_success.csv"
     )
 
     # Normalize IDs
@@ -607,7 +618,7 @@ def main():
     global SIGMA
     SIGMA = args.sigma
 
-    telemetry, meter = load_data()
+    telemetry, meter = load_data(args.data)
 
     weeks = get_prediction_weeks(args)
 
