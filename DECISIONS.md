@@ -53,6 +53,7 @@ The next best tested thresholds had a cost of €26,620.
 
 I did not choose 3.5 sigma just because of the number of correct predictions. I used the cost given in the challenge to make the decision.
 
+The historical calculation applies the €600 false-negative cost once for each missed confirmed fault in the evaluation week. It does not model additional €600 charges in later weeks if the same gateway remains broken, because the available labels do not reliably show whether a missed gateway stayed broken in subsequent weeks.
 ---
 
 ## 3. Using a Gateway-Specific Baseline
@@ -138,3 +139,4 @@ Another limitation is that the available field-visit data does not always tell u
 Two more weeks of labelled field outcomes would give more data for comparing thresholds and would make the cost estimates more reliable.
 
 More telemetry would also give more observations for calculating each gateway's normal behaviour.
+The historical cost calculation also does not model recurring false-negative costs across later weeks. More complete longitudinal fault labels would be needed to estimate that persistence cost reliably.
