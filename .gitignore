@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+
+# Challenge data
+data/*
+!data/.gitkeep
+
+# Generated predictions
+predictions.csv
+predictions_baseline.csv
+predictions_combined.csv
+
+# Challenge-provided materials
+01-Challenge-Brief.pdf
+02-Data-Dictionary.pdf
+challenge.txt
+
+# OS/editor files
+.DS_Store
+*.swp
+
+README.txt
