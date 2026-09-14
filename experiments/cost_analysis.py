@@ -497,7 +497,106 @@ def evaluate_sigma(sigma):
         "false_negative_cost_eur": fn_cost,
         "total_cost_eur": total_cost
     }
+# ============================================================
+# SELECTED THRESHOLD WEEK-BY-WEEK RANGE
+# ============================================================
 
+def selected_threshold_breakdown(sigma=3.5):
+
+    rows = []
+
+    print(
+        f"\nWeek-by-week breakdown for selected sigma = {sigma}"
+    )
+
+    for monday in TEST_WEEKS:
+
+        predicted = predict_week(
+            monday,
+            sigma
+        )
+
+        predicted_ids = set(
+            predicted["gateway_id"]
+        )
+
+        actual_ids = actual_faults(
+            monday
+        )
+
+        if not actual_ids:
+            continue
+
+        tp = len(
+            predicted_ids & actual_ids
+        )
+
+        fp = len(
+            predicted_ids - actual_ids
+        )
+
+        fn = len(
+            actual_ids - predicted_ids
+        )
+
+        fp_cost = (
+            fp *
+            FALSE_POSITIVE_COST
+        )
+
+        fn_cost = (
+            fn *
+            FALSE_NEGATIVE_COST
+        )
+
+        total_cost = (
+            fp_cost +
+            fn_cost
+        )
+
+        rows.append({
+            "week_start": monday,
+            "true_positives": tp,
+            "false_positives": fp,
+            "false_negatives": fn,
+            "false_positive_cost_eur": fp_cost,
+            "false_negative_cost_eur": fn_cost,
+            "total_cost_eur": total_cost
+        })
+
+    breakdown = pd.DataFrame(rows)
+
+    if breakdown.empty:
+        print("No evaluated weeks available.")
+        return breakdown
+
+    print("\nSelected threshold range:")
+    print(
+        f"  Minimum weekly cost: "
+        f"€{breakdown['total_cost_eur'].min():,.0f}"
+    )
+    print(
+        f"  Maximum weekly cost: "
+        f"€{breakdown['total_cost_eur'].max():,.0f}"
+    )
+    print(
+        f"  Average weekly cost: "
+        f"€{breakdown['total_cost_eur'].mean():,.0f}"
+    )
+
+    print("\nWeek-by-week:")
+    print(
+        breakdown.to_string(
+            index=False
+        )
+    )
+
+    breakdown.to_csv(
+        "part2/selected_threshold_weekly_range.csv",
+        index=False
+    )
+
+    return breakdown
 
 # ============================================================
 # MAIN
@@ -518,6 +617,7 @@ def main():
     results_df = pd.DataFrame(
         results
     )
+    selected_threshold_breakdown(3.5)
 
     # Sort by total cost
     results_df = results_df.sort_values(
