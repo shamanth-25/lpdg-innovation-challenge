@@ -50,6 +50,21 @@ At 3.5 sigma:
 - Total estimated cost = €25,640
 
 The next best tested thresholds had a cost of €26,620.
+### How much the result moves across weeks
+
+The selected 3.5 sigma threshold was also checked separately on each of the five historical evaluation weeks:
+
+| Week | True Positives | False Positives | False Negatives | Estimated Cost |
+|---|---:|---:|---:|---:|
+| 2025-09-01 | 3 | 12 | 3 | €6,360 |
+| 2025-10-06 | 3 | 12 | 0 | €4,560 |
+| 2025-11-03 | 4 | 11 | 2 | €5,380 |
+| 2025-12-01 | 3 | 12 | 1 | €5,160 |
+| 2026-01-05 | 4 | 11 | 0 | €4,180 |
+
+The estimated weekly cost therefore ranged from **€4,180 to €6,360**, with an average of **€5,128** across these five weeks.
+
+This variation shows why I do not treat €25,640 as a guaranteed future cost. The result depends on which gateways fail and which faults occur in the evaluation week. The five weeks provide useful evidence, but they are still a small historical sample.
 
 I did not choose 3.5 sigma just because of the number of correct predictions. I used the cost given in the challenge to make the decision.
 
