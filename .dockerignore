@@ -1,0 +1,12 @@
+.venv/
+.git/
+data/
+predictions.csv
+predictions_baseline.csv
+predictions_combined.csv
+*.pyc
+__pycache__/
+01-Challenge-Brief.pdf
+02-Data-Dictionary.pdf
+challenge.txt
+README.txt

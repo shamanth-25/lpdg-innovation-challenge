@@ -1,0 +1,8 @@
+services:
+  lpdg:
+    build: .
+    working_dir: /app
+    volumes:
+      - .:/app
+      - ./data:/app/data:ro
+    command: python3 final_score.py
