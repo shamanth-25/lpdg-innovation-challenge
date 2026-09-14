@@ -62,6 +62,13 @@ def parse_args():
     )
 
     parser.add_argument(
+        "--sigma",
+        type=float,
+        default=SIGMA,
+        help="Anomaly threshold in standard deviations"
+    )
+
+    parser.add_argument(
         "--output",
         type=str,
         default="predictions.csv",
@@ -596,6 +603,9 @@ def get_prediction_weeks(args):
 def main():
 
     args = parse_args()
+
+    global SIGMA
+    SIGMA = args.sigma
 
     telemetry, meter = load_data()
 
