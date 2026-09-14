@@ -1,0 +1,8 @@
+sigma,weeks_evaluated,true_positives,false_positives,false_negatives,false_positive_cost_eur,false_negative_cost_eur,total_cost_eur
+3.5,5,17,58,6,22040,3600,25640
+2.5,5,16,59,7,22420,4200,26620
+3.75,5,16,59,7,22420,4200,26620
+3.0,5,16,59,7,22420,4200,26620
+3.25,5,14,61,9,23180,5400,28580
+2.0,5,13,62,10,23560,6000,29560
+4.0,5,13,62,10,23560,6000,29560
