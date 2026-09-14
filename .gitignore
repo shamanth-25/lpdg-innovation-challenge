@@ -10,11 +10,6 @@ __pycache__/
 data/*
 !data/.gitkeep
 
-# Generated predictions
-predictions.csv
-predictions_baseline.csv
-predictions_combined.csv
-
 # Challenge-provided materials
 01-Challenge-Brief.pdf
 02-Data-Dictionary.pdf

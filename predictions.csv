@@ -1,0 +1,121 @@
+week_start,rank,gateway_id,score,reason
+2026-02-02,1,0A4E33E2692B,1.5294117647058822,22 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 53%.
+2026-02-02,2,0AB6B45C775A,1.3798538145271815,13 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 79%.
+2026-02-02,3,0E1B6F4DBA34,1.3664772727272727,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 59%.
+2026-02-02,4,064AED1EC0AA,1.350815850815851,19 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 49%.
+2026-02-02,5,06F49BD8F572,1.3090298962782185,13 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 72%.
+2026-02-02,6,06FFEC2EFA5E,1.1956918583424607,18 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 38%.
+2026-02-02,7,02423E0E6E9F,1.0420875420875422,5 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 81%.
+2026-02-02,8,02314F9A9168,1.0253045923149016,6 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 75%.
+2026-02-02,9,0AA296FF247D,0.9791874791874792,13 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 39%.
+2026-02-02,10,0EF023E6452D,0.9515890613451589,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 18%.
+2026-02-02,11,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-02-02,12,06F2CDBD2C41,0.9345454545454546,10 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 48%.
+2026-02-02,13,0A2778A31BE3,0.9305194805194805,9 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 52%.
+2026-02-02,14,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-02-02,15,024570739DE0,0.9245283018867925,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-02-09,1,0AA296FF247D,1.2216117216117217,20 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 39%.
+2026-02-09,2,02097AB58D3C,1.173015873015873,20 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 34%.
+2026-02-09,3,0A68F38A6ACF,1.1666666666666665,24 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 17%.
+2026-02-09,4,0E55F28AB569,1.121212121212121,8 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 79%.
+2026-02-09,5,0A4E33E2692B,1.071078431372549,13 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 53%.
+2026-02-09,6,0E9DC914D8DF,1.039459161147903,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 33%.
+2026-02-09,7,02314F9A9168,1.0025773195876289,6 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 75%.
+2026-02-09,8,0AB6B45C775A,0.9972780569514238,5 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 79%.
+2026-02-09,9,0A7AC5BDAF86,0.9814207650273223,16 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 31%.
+2026-02-09,10,0A2778A31BE3,0.9797619047619046,11 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 52%.
+2026-02-09,11,06F49BD8F572,0.9681208053691275,6 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 72%.
+2026-02-09,12,0A1FB1C98A92,0.967239185750636,19 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 18%.
+2026-02-09,13,0ADD02AB693D,0.9509803921568628,2 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 87%.
+2026-02-09,14,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-02-09,15,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-02-16,1,0AA296FF247D,1.2007783882783882,26 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 39%.
+2026-02-16,2,0228A99EE35A,1.1074380165289255,32 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 11%.
+2026-02-16,3,0E1B6F4DBA34,1.0625,15 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 59%.
+2026-02-16,4,0A4E33E2692B,1.0606617647058822,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 53%.
+2026-02-16,5,0ADD02AB693D,0.9926470588235294,4 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 87%.
+2026-02-16,6,02D49A34B2FE,0.9777212918660287,27 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 13%.
+2026-02-16,7,02D4DFEF402A,0.9498106060606061,3 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 86%.
+2026-02-16,8,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-02-16,9,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-02-16,10,024570739DE0,0.9245283018867925,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-02-16,11,02C0F45F31E7,0.92,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-02-16,12,0A55DA266F71,0.9125,18 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 35%.
+2026-02-16,13,06C0D5E3BCDB,0.9092380478087649,5 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 75%.
+2026-02-16,14,06F49BD8F572,0.9056208053691275,6 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 72%.
+2026-02-16,15,065B928716CD,0.9039351851851852,23 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 19%.
+2026-02-23,1,02D7623552C8,1.141337386018237,26 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 21%.
+2026-02-23,2,06238EE3BE6C,1.0350877192982457,28 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 4%.
+2026-02-23,3,02D4DFEF402A,1.0346320346320346,5 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 86%.
+2026-02-23,4,0EF023E6452D,0.9645760743321719,22 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 18%.
+2026-02-23,5,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-02-23,6,06C0D5E3BCDB,0.9315594763801935,5 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 75%.
+2026-02-23,7,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-02-23,8,024570739DE0,0.9245283018867925,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-02-23,9,0A55DA266F71,0.9214285714285714,16 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 35%.
+2026-02-23,10,02C0F45F31E7,0.92,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-02-23,11,0ADD02AB693D,0.9033613445378151,1 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 87%.
+2026-02-23,12,0E69C64B6E57,0.889751552795031,24 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 3%.
+2026-02-23,13,022C6F326E3B,0.858974358974359,"Meter-read success is reduced, giving 86% meter-read risk."
+2026-02-23,14,0AB6B45C775A,0.8246590093323761,1 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 79%.
+2026-02-23,15,02314F9A9168,0.8240058910162003,2 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 75%.
+2026-03-02,1,024DD3A9ADCA,1.3903743315508021,23 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 39%.
+2026-03-02,2,028B24EADDAD,1.1846280651143624,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 45%.
+2026-03-02,3,0A8407CF4D85,1.035924834193073,21 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 12%.
+2026-03-02,4,02C0F45F31E7,0.9634782608695652,1 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 92%.
+2026-03-02,5,0EF023E6452D,0.9614704842700601,18 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 18%.
+2026-03-02,6,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-03-02,7,02D4DFEF402A,0.9430171277997366,2 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 86%.
+2026-03-02,8,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-03-02,9,024570739DE0,0.9245283018867925,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-03-02,10,0ADD02AB693D,0.8676470588235294,"Meter-read success is reduced, giving 87% meter-read risk."
+2026-03-02,11,022C6F326E3B,0.858974358974359,"Meter-read success is reduced, giving 86% meter-read risk."
+2026-03-02,12,02D49A34B2FE,0.8296234657790722,16 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 13%.
+2026-03-02,13,02423E0E6E9F,0.8148148148148149,"Meter-read success is reduced, giving 81% meter-read risk."
+2026-03-02,14,02892F51E1CB,0.8041766518315645,6 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 54%.
+2026-03-02,15,0AB6B45C775A,0.7889447236180904,"Meter-read success is reduced, giving 79% meter-read risk."
+2026-03-09,1,024DD3A9ADCA,1.2599395489421066,20 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 39%.
+2026-03-09,2,0ABC8E60F4C1,1.1481481481481481,23 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 15%.
+2026-03-09,3,028B24EADDAD,1.141149804244797,16 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 45%.
+2026-03-09,4,02075B45BF24,0.9517569982132221,20 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 8%.
+2026-03-09,5,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-03-09,6,02D4DFEF402A,0.9430171277997366,2 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 86%.
+2026-03-09,7,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-03-09,8,024570739DE0,0.9245283018867925,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-03-09,9,02C0F45F31E7,0.92,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-03-09,10,02F5CE7705EC,0.880350522413212,19 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 5%.
+2026-03-09,11,0ADD02AB693D,0.8676470588235294,"Meter-read success is reduced, giving 87% meter-read risk."
+2026-03-09,12,022C6F326E3B,0.858974358974359,"Meter-read success is reduced, giving 86% meter-read risk."
+2026-03-09,13,02423E0E6E9F,0.8148148148148149,"Meter-read success is reduced, giving 81% meter-read risk."
+2026-03-09,14,0E41CF7F74D5,0.7996567505720823,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 6%.
+2026-03-09,15,065B928716CD,0.7938808373590983,14 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 19%.
+2026-03-16,1,0A182EFD3C61,1.1451612903225805,33 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 15%.
+2026-03-16,2,02C0F45F31E7,0.9503030303030303,1 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (reboot_cnt); meter-read risk 92%.
+2026-03-16,3,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-03-16,4,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-03-16,5,024570739DE0,0.9245283018867925,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-03-16,6,02D4DFEF402A,0.9166666666666667,2 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 86%.
+2026-03-16,7,0ADD02AB693D,0.8676470588235294,"Meter-read success is reduced, giving 87% meter-read risk."
+2026-03-16,8,022C6F326E3B,0.858974358974359,"Meter-read success is reduced, giving 86% meter-read risk."
+2026-03-16,9,028B24EADDAD,0.8394370242711475,13 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 45%.
+2026-03-16,10,02423E0E6E9F,0.8148148148148149,"Meter-read success is reduced, giving 81% meter-read risk."
+2026-03-16,11,0AB6B45C775A,0.7889447236180904,"Meter-read success is reduced, giving 79% meter-read risk."
+2026-03-16,12,0E55F28AB569,0.7878787878787878,"Meter-read success is reduced, giving 79% meter-read risk."
+2026-03-16,13,0E9A30D927A5,0.7723749119097957,4 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 65%.
+2026-03-16,14,06C0D5E3BCDB,0.7529880478087649,"Meter-read success is reduced, giving 75% meter-read risk."
+2026-03-16,15,02314F9A9168,0.7525773195876289,"Meter-read success is reduced, giving 75% meter-read risk."
+2026-03-23,1,0E55F28AB569,1.337878787878788,11 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 79%.
+2026-03-23,2,0230D261A1CD,1.1125,20 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 11%.
+2026-03-23,3,0A182EFD3C61,1.0451612903225806,18 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 15%.
+2026-03-23,4,060C5773A61B,0.9551724137931035,16 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 16%.
+2026-03-23,5,0A568E79FEF6,0.9468085106382979,"Meter-read success is reduced, giving 95% meter-read risk."
+2026-03-23,6,0E5A9CEA8093,0.9456284153005464,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 10%.
+2026-03-23,7,0EE51B79E853,0.9412371134020618,18 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 4%.
+2026-03-23,8,0AC437023B18,0.927536231884058,"Meter-read success is reduced, giving 93% meter-read risk."
+2026-03-23,9,024570739DE0,0.9245283018867925,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-03-23,10,02C0F45F31E7,0.92,"Meter-read success is reduced, giving 92% meter-read risk."
+2026-03-23,11,0EF47B410B41,0.9156934306569343,17 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (disconnection_cnt); meter-read risk 7%.
+2026-03-23,12,0EE587927263,0.9,18 recent telemetry breach(es) beyond the gateway's own 3.5-sigma baseline (offline_duration_sec); meter-read risk 0%.
+2026-03-23,13,0ADD02AB693D,0.8676470588235294,"Meter-read success is reduced, giving 87% meter-read risk."
+2026-03-23,14,022C6F326E3B,0.858974358974359,"Meter-read success is reduced, giving 86% meter-read risk."
+2026-03-23,15,02D4DFEF402A,0.8560606060606061,"Meter-read success is reduced, giving 86% meter-read risk."
